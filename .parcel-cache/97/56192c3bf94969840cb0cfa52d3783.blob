@@ -6,8 +6,8 @@
 }
 
 #app1 > button {
-  width: 4vw;
-  height: 3vw;
-  font-size: 1.5vw;
+  width: 5vw;
+  height: 4vw;
+  font-size: 2vw;
   margin-left: 2vw;
 }
