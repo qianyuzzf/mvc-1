@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head><link rel="stylesheet" href="/index.HASH_REF_6c7fe65dc5b3afd23196b7979c26efc2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>MVC demo</title>
+  </head>
+  <body>
+    <div id="page">
+      <section id="app1">
+        <div>
+          <span id="number">100</span>
+        </div>
+        <button id="add1">+1</button>
+        <button id="minus1">-1</button>
+        <button id="multiply2">×2</button>
+        <button id="division2">÷2</button>
+      </section>
+      <section id="app2">
+        <ol id="tab-bar">
+          <li><span>1111</span></li>
+          <li><span>21111</span></li>
+        </ol>
+        <ol id="tab-content">
+          <li>内容1</li>
+          <li>内容2</li>
+        </ol>
+      </section>
+      <section id="app3">
+        <div id="square"></div>
+      </section>
+      <section id="app4"></section>
+    </div>
+    <script src="/index.HASH_REF_e9312995559a911a6f9b63a6bd78eeec.js"></script>
+  </body>
+</html>

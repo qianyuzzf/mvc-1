@@ -1,0 +1,16 @@
+require('./reset.css');
+require('./app1.css');
+var _jquery = require('jquery');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _jqueryDefault = _parcelHelpers.interopDefault(_jquery);
+const $add1 = _jqueryDefault.default('#add1');
+const $minus1 = _jqueryDefault.default('#minus1');
+const $multiply2 = _jqueryDefault.default('#multiply2');
+const $division2 = _jqueryDefault.default('#division2');
+const $number = _jqueryDefault.default('#number');
+$add1.on('click', () => {
+  // let n = parseInt($number.text())
+  // n += 1
+  // $number.text(n)
+  $number.text('+1');
+});

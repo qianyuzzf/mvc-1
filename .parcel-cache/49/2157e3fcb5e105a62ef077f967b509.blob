@@ -1,0 +1,21 @@
+#app2 {
+}
+#app2 #tab-bar {
+  border: 1px solid black;
+  display: flex;
+}
+#app2 #tab-bar > li {
+  border: 1px solid red;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+#app2 #tab-content {
+  border: 1px solid black;
+  display: flex;
+}
+
+#app2 #tab-content > li {
+  border: 1px solid red;
+  width: 50%;
+}

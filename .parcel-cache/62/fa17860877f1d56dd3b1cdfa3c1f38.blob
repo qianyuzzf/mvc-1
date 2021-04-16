@@ -1,0 +1,22 @@
+#app3 {
+}
+#app3 #square {
+  border: 1px solid red;
+  margin: 5vw;
+  margin-top: 10vw;
+  width: 10vw;
+  height: 10vw;
+}
+
+@keyframes circle {
+  0% {
+  }
+  100% {
+    transform: translateX(10vw);
+    border-radius: 50%;
+  }
+}
+
+#app3 .active#square {
+  animation: circle 1s linear;
+}

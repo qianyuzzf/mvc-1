@@ -1,0 +1,5 @@
+#app2 {
+}
+#app2 #tab-bar {
+  border: 1px solid black;
+}

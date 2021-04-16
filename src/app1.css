@@ -1,0 +1,13 @@
+#app1 #number {
+  display: block;
+  border: 1px solid black;
+  margin: 3vh 2vw;
+  margin-right: 20vw;
+}
+
+#app1 > button {
+  width: 5vw;
+  height: 5vh;
+  font-size: 2vw;
+  margin-left: 2vw;
+}

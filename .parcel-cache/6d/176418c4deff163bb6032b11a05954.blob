@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#app1 {
+  border: 1px solid red;
+  width: 50vw;
+  height: 50vh;
+}
+#app1 #number {
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+
+#app1 > button {
+  width: 25px;
+  height: 25px;
+  font-size: 0px;
+}
+
+/*# sourceMappingURL=index.HASH_REF_6c7fe65dc5b3afd23196b7979c26efc2.css.map */

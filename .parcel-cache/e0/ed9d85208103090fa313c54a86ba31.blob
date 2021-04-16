@@ -1,0 +1,48 @@
+#app1 {
+  border: 1px solid red;
+  width: 50vw;
+  height: 50vh;
+}
+
+#app1 #number {
+  display: block;
+  border: 1px solid black;
+  margin: 3vh 2vw;
+}
+
+#app1 > button {
+  min-width: 5vw;
+  min-height: 5vh;
+  font-size: 2vw;
+  margin-left: 2vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+#app2 {
+  border: 1px solid red;
+  width: 50vw;
+  height: 50vh;
+}
+
+#page {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#page > section {
+}
+
+/*# sourceMappingURL=index.HASH_REF_6c7fe65dc5b3afd23196b7979c26efc2.css.map */

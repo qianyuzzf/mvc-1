@@ -1,0 +1,27 @@
+#app2 #tab-bar {
+  display: flex;
+}
+#app2 #tab-bar > li {
+  border: 1px solid black;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+#app2 #tab-bar > li.selective {
+  background-color: sandybrown;
+}
+
+#app2 #tab-content {
+  display: flex;
+}
+
+#app2 #tab-content > li {
+  display: none;
+  width: 50%;
+  padding: 5px;
+}
+
+#app2 #tab-content > li.active {
+  display: block;
+}

@@ -1,0 +1,9 @@
+#app2 {
+}
+#app2 #tab-bar {
+  border: 1px solid black;
+  display: flex;
+}
+#app2 #tab-bar > li {
+  width: 50%;
+}
